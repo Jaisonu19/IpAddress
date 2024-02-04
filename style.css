@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#ipDetails {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+}
+
+.first-line,.second-line {
+    padding: 2%;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 80px;
+}
+
+#map {
+    /* width: 88vw; */
+    /* height: 80vh; */
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(87, 90, 133, 1);
+}
+
+#map p {
+    background-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(184, 188, 204, 1);
+    margin-bottom: 40px;
+}
+
+/* Mpre Info */
+#moreInfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+
+#moreInfo>p {
+    align-self: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(184, 188, 204, 1);
+}
+
+#moreInfo>div p {
+    color: rgba(184, 188, 204, 0.5);
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 15px;
+}
